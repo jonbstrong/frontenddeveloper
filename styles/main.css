@@ -1,0 +1,76 @@
+html,
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#container {
+	height: 50px;
+	background: lightgrey;
+}
+/* Question */
+
+#container #logo {
+    float: left;
+    background-image: url("/meerkat.png");
+	width: 25px;
+    height: 100%;
+	margin: 0;
+	text-align: center;
+    background-repeat: no-repeat;
+}
+/* Options */
+
+#container #questionbox {
+    float: right;
+	width: 90%;
+    overflow: hidden;
+}
+
+#container #question {
+    height: 50%;
+	margin: 0;
+	text-align: center;
+}
+/* Options */
+
+#container #options {
+	height: 50%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#container #options li {
+	float: left;
+	width: 33%;
+	text-align: center;
+	cursor: pointer;
+}
+/* Results */
+
+#container #results {
+	display: none;
+	height: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#container #results li {
+	float: left;
+	width: 33%;
+	text-align: center;
+	height: 100%;
+}
+
+#container #results li span {
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+
+#container #results li span:first-of-type {
+	font-size: 24px;
+}
